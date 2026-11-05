@@ -1,113 +1,111 @@
-# 🍣 Koenma Sushi — Sistema Full Stack para Delivery
+# 🍣 Koenma Sushi — Plataforma Full Stack para Restaurante Japonês
 
-**JavaScript • Node.js • Express • MySQL • API REST**
+**JavaScript • HTML5 • CSS3 • Node.js • Express • MySQL • API REST**
 
-O **Koenma Sushi** é uma aplicação web Full Stack para delivery de comida japonesa, desenvolvida de forma independente para simular a operação digital de um restaurante.
+O **Koenma Sushi** é uma aplicação web desenvolvida de forma independente para simular a experiência digital de um restaurante japonês. Reúne uma interface responsiva, cardápio interativo, carrinho de compras e recursos de autenticação e gerenciamento de pedidos, integrando frontend, backend e banco de dados relacional.
 
-O projeto integra uma interface responsiva, cardápio interativo, carrinho de compras, autenticação de clientes e processamento de pedidos por meio de uma API REST conectada ao banco de dados MySQL.
+🌐 **[Acessar a demonstração online](https://koenma-sushi-frontend.onrender.com/)**
 
-**[🌐 Acessar demonstração online](https://koenma-sushi-frontend.onrender.com/)**
+## 📸 Demonstração visual
 
----
+### 🏠 Página inicial
+Identidade visual em preto e dourado, banner de destaque e navegação para as áreas do site.
 
-## 🎯 Objetivo do projeto
+<p align="center"><img src="screenshots/inicio.jpg" width="850" alt="Página inicial do Koenma Sushi"></p>
 
-Desenvolver uma solução de delivery que permita aos clientes explorar o cardápio, selecionar produtos, gerenciar seu carrinho e realizar pedidos, aplicando conceitos de desenvolvimento Full Stack e integração entre frontend, backend e banco de dados.
+### 🎞️ Carrossel de destaques
+Banner rotativo com diferentes apresentações de pratos japoneses.
 
-## 📸 Demonstração do sistema
+<p align="center"><img src="screenshots/carrossel.jpg" width="850" alt="Carrossel de destaques"></p>
 
-### Página inicial e cardápio
+### 🍱 Cardápio interativo
+Categorias como sushis, temakis, hot rolls, entradas, bebidas e sobremesas, com cartões de produtos, preços e opção de ver detalhes.
 
-*Espaço reservado para captura da página inicial e dos produtos.*
+<p align="center"><img src="screenshots/cardapio.jpg" width="850" alt="Cardápio com categorias e produtos"></p>
 
-### Carrinho de compras
+### 📖 Página institucional
+Seção “Sobre”, com apresentação e identidade visual do restaurante fictício.
 
-*Espaço reservado para captura do carrinho e resumo do pedido.*
+<p align="center"><img src="screenshots/sobre.jpg" width="850" alt="Página Sobre do Koenma Sushi"></p>
 
-### Autenticação e pedidos
+### 🔐 Login
+Modal de autenticação com campos de e-mail e senha e acesso ao cadastro.
 
-*Espaço reservado para capturas das telas de login, cadastro e pedidos.*
+<p align="center"><img src="screenshots/login.jpg" width="700" alt="Modal de login do Koenma Sushi"></p>
+
+## 🎯 Objetivo
+
+Aplicar conhecimentos de desenvolvimento **Full Stack** na criação de uma experiência digital para restaurantes, com foco em navegação, catálogo de produtos, regras de negócio, comunicação por API e persistência de dados.
 
 ## 🚀 Funcionalidades
 
-### 🛒 Experiência do cliente
+**Interface e experiência do usuário**
+- Layout responsivo com identidade visual própria
+- Carrossel de banners na página inicial
+- Cardápio com categorias e filtros
+- Visualização de produtos, descrições e preços
+- Carrinho com controle de itens, quantidades e valores
+- Navegação entre páginas Home, Cardápio, Reservas, Sobre e Contato
+- Interface de login e cadastro
 
-- Cardápio interativo organizado por categorias.
-- Filtragem dinâmica de produtos.
-- Visualização detalhada dos pratos e preços.
-- Carrinho de compras com adição e remoção de itens.
-- Controle de quantidades e cálculo automático de valores.
-- Interface responsiva para computadores, tablets e smartphones.
-- Carrossel de destaques na página inicial.
+**Backend e dados — conforme documentação técnica do projeto**
+- API REST com Node.js e Express
+- Rotas de cadastro, login e processamento de pedidos
+- Integração com MySQL para persistência de dados
+- Validação de CPF no fluxo de cadastro
+- Uso de LocalStorage no gerenciamento do carrinho
 
-### ⚙️ Backend e regras de negócio
+> Os prints demonstram as interfaces. Os recursos de backend são descritos com base na documentação do projeto privado; sua operação ponta a ponta não foi validada nesta apresentação.
 
-- API REST desenvolvida com Node.js e Express.
-- Cadastro e autenticação de usuários.
-- Validação de CPF no cadastro.
-- Processamento e gerenciamento de pedidos.
-- Integração com banco de dados MySQL.
-- Persistência de informações de clientes e pedidos.
-- Utilização de LocalStorage para gerenciamento do carrinho.
-
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias
 
 | Camada | Tecnologias |
-|---|---|
-| Frontend | HTML5, CSS3, JavaScript ES6+ |
-| Backend | Node.js, Express.js |
+| --- | --- |
+| Frontend | HTML5, CSS3, JavaScript (ES6+) |
+| Estilização | CSS Flexbox e Grid |
+| Backend | Node.js, Express |
 | Banco de dados | MySQL |
-| Comunicação | API REST |
-| Interface | Flexbox, CSS Grid |
-| Persistência local | LocalStorage |
-| Hospedagem | Render |
+| Integração | API REST |
+| Armazenamento local | LocalStorage |
+| Deploy da demonstração | Render |
 | Versionamento | Git e GitHub |
 
-## 🧩 Arquitetura do sistema
+## 🧩 Arquitetura
 
-O projeto utiliza uma arquitetura cliente-servidor, separando a interface do usuário da lógica de negócio e da persistência de dados.
+```text
+Navegador (HTML / CSS / JavaScript)
+                 |
+            Requisições HTTP
+                 |
+          API REST (Express)
+                 |
+           Backend Node.js
+                 |
+             Banco MySQL
+```
 
-**Frontend → API REST → Backend Node.js/Express → MySQL**
+A aplicação separa a experiência do usuário das operações de negócio e da persistência de dados.
 
-O frontend é responsável pela interação com o cliente, enquanto o backend processa as requisições e realiza as operações necessárias no banco de dados.
+## 💡 Competências demonstradas
 
-## 💡 Conhecimentos aplicados
+Desenvolvimento de interfaces responsivas, manipulação do DOM, lógica de carrinho, integração frontend/backend, criação e consumo de API REST, modelagem e acesso a banco de dados relacional e organização de uma aplicação web completa.
 
-Durante o desenvolvimento, foram trabalhados conceitos de:
+## 🌐 Testar o projeto
 
-- Desenvolvimento Full Stack.
-- Criação e consumo de APIs REST.
-- Programação assíncrona com JavaScript.
-- Integração com banco de dados relacional.
-- Operações de cadastro, consulta e gerenciamento de dados.
-- Gerenciamento de estado do carrinho.
-- Desenvolvimento de interfaces responsivas.
-- Organização de código e regras de negócio.
+**[Abrir Koenma Sushi](https://koenma-sushi-frontend.onrender.com/)**
 
-## 🌐 Demonstração online
-
-**[Acessar Koenma Sushi](https://koenma-sushi-frontend.onrender.com/)**
-
-A aplicação está hospedada na plataforma Render e pode apresentar um tempo de carregamento inicial devido às características do serviço de hospedagem.
-
-*Projeto desenvolvido para fins de demonstração e portfólio profissional.*
+O ambiente é uma demonstração de portfólio e pode apresentar limitações ou tempo de inicialização da hospedagem.
 
 ## 🔒 Código-fonte
 
-O código-fonte completo permanece em um repositório privado, por se tratar de um projeto desenvolvido de forma independente.
-
-Este repositório público apresenta a documentação técnica, as funcionalidades e a demonstração do sistema.
+O código-fonte completo é mantido em um repositório privado. Este repositório público apresenta a documentação técnica, capturas de tela e o acesso à demonstração, sem expor a implementação.
 
 ## 👨‍💻 Desenvolvedor
 
-**Tiago Martins de Oliveira**
+**Tiago Martins de Oliveira**  
+Técnico em Desenvolvimento de Sistemas • Desenvolvedor Full Stack
 
-Técnico em Desenvolvimento de Sistemas | Desenvolvedor Full Stack
-
-Projeto desenvolvido individualmente, abrangendo frontend, backend, integração com banco de dados e implementação das funcionalidades.
-
-**[LinkedIn](https://www.linkedin.com/in/massacral/)** | **[Portfólio](https://portfolio-tiago-cuxy.onrender.com/)** | **[GitHub](https://github.com/Massacral)**
+[GitHub](https://github.com/Massacral) · [LinkedIn](https://www.linkedin.com/in/massacral/) · [Portfólio](https://portfolio-tiago-cuxy.onrender.com/)
 
 ---
-
-⭐ Projeto integrante do meu portfólio de desenvolvimento de software.
+*Projeto independente desenvolvido para demonstração de competências em desenvolvimento web.*
