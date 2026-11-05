@@ -1,1 +1,1 @@
-🍣 Koenma Sushi | Aplicação web para restaurante japonês, desenvolvida com foco em experiência do usuário, interface responsiva e digitalização de serviços gastronômicos. Projeto independente para portfólio profissional.
+🍣 Koenma Sushi | Sistema Full Stack para delivery de comida japonesa, desenvolvido com JavaScript, Node.js, Express e MySQL. Inclui cardápio interativo, carrinho de compras, autenticação de usuários e gerenciamento de pedidos via API REST.
