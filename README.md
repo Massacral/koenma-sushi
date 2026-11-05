@@ -11,27 +11,27 @@ O **Koenma Sushi** é uma aplicação web desenvolvida de forma independente par
 ### 🏠 Página inicial
 Identidade visual em preto e dourado, banner de destaque e navegação para as áreas do site.
 
-<p align="center"><img src="screenshots/inicio.jpg" width="850" alt="Página inicial do Koenma Sushi"></p>
+<p align="center"><img src="inicio.jpg" width="850" alt="Página inicial do Koenma Sushi"></p>
 
 ### 🎞️ Carrossel de destaques
 Banner rotativo com diferentes apresentações de pratos japoneses.
 
-<p align="center"><img src="screenshots/carrossel.jpg" width="850" alt="Carrossel de destaques"></p>
+<p align="center"><img src="carrossel.jpg" width="850" alt="Carrossel de destaques"></p>
 
 ### 🍱 Cardápio interativo
 Categorias como sushis, temakis, hot rolls, entradas, bebidas e sobremesas, com cartões de produtos, preços e opção de ver detalhes.
 
-<p align="center"><img src="screenshots/cardapio.jpg" width="850" alt="Cardápio com categorias e produtos"></p>
+<p align="center"><img src="cardapio.jpg" width="850" alt="Cardápio com categorias e produtos"></p>
 
 ### 📖 Página institucional
 Seção “Sobre”, com apresentação e identidade visual do restaurante fictício.
 
-<p align="center"><img src="screenshots/sobre.jpg" width="850" alt="Página Sobre do Koenma Sushi"></p>
+<p align="center"><img src="sobre.jpg" width="850" alt="Página Sobre do Koenma Sushi"></p>
 
 ### 🔐 Login
 Modal de autenticação com campos de e-mail e senha e acesso ao cadastro.
 
-<p align="center"><img src="screenshots/login.jpg" width="700" alt="Modal de login do Koenma Sushi"></p>
+<p align="center"><img src="login.jpg" width="700" alt="Modal de login do Koenma Sushi"></p>
 
 ## 🎯 Objetivo
 
