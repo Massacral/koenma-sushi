@@ -11,7 +11,7 @@ O **Koenma Sushi** é uma aplicação web desenvolvida de forma independente par
 ### 🏠 Página inicial
 Identidade visual em preto e dourado, banner de destaque e navegação para as áreas do site.
 
-<p align="center"><img src="inicio.pnj" width="850" alt="Página inicial do Koenma Sushi"></p>
+<p align="center"><img src="inicio.png" width="850" alt="Página inicial do Koenma Sushi"></p>
 
 ### 🎞️ Carrossel de destaques
 Banner rotativo com diferentes apresentações de pratos japoneses.
